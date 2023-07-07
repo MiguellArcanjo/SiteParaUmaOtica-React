@@ -1,10 +1,11 @@
 import React from "react";
+import './style.css'
 
 export default function Topo() {
     return (
         <header>
-            <div>
-                <img src="assets/logo.png" alt="Imagem De um oculos e o nome da clinica"/>
+            <div className="limita-secao topo">
+                <img src="assets/logo.png" alt="Imagem De um oculos e o nome da clinica" className="imgLogo"/>
                 
                 <nav>
                     <a href="">PRODTUOS</a>

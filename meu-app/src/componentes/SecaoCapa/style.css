@@ -1,0 +1,55 @@
+.capa {
+    background-image: url('/public/assets/capa.png');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100);
+    height: 80vh;
+    width: 100vw;
+}
+
+.conteudoCapa {
+    height: 100%;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudoCapa p, .conteudoCapa h1 {
+    font-family: 'Anybody', cursive;
+}
+
+.conteudoCapa p {
+    font-size: 36px;
+    color: rgb(196, 196, 196);
+}
+
+.conteudoCapa h1 {
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: 5px;
+    line-height: 70px;
+}
+
+@media (max-width: 768px) {
+    .conteudoCapa h1 {
+        font-size: 40px;
+        max-width: 350px;
+    }
+
+    .conteudoCapa p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .capa {
+        background-position: 89% center;
+    }
+
+    .conteudoCapa {
+        background: rgba(0, 0, 0, 0.6);
+    }
+}

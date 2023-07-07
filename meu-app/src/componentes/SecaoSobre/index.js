@@ -1,15 +1,16 @@
 import React from "react";
+import './style.css'
 
 export default function SecaoSobre() {
     return (
-        <section>
-            <div>
+        <section className="secaoSobre">
+            <div className="limita-secao conteudoSobre">
                 <h1>QUEM SOMOS NÓS?</h1>
                 <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas vida iniciou suas atividades focada no atendimento ao público de renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p>
 
-                <div>
+                <div className="box-card">
                     <img src="assets/loja.png"/>
-
+                    
                     <div>
                         <h1>NOSSAS FILIAIS</h1>
                         <p>Hoje temos mais de 20 filiais pelo Brasil e na América</p>
